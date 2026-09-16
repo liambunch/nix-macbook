@@ -50,6 +50,10 @@
     homebrew = {
         enable = true;
 
+        casks = [
+            "unifi-identity-endpoint"
+        ];
+
         onActivation = {
             autoUpdate = true;
             upgrade = true;
