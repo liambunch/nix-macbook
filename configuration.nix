@@ -43,6 +43,7 @@
                 "/Users/liam/Applications/Home Manager Apps/Thunderbird.app"
                 "/Users/liam/Applications/Home Manager Apps/VSCodium.app"
                 "/Users/liam/Applications/Home Manager Apps/Vesktop.app"
+                "/Applications/UniFi Endpoint.app"
             ];
         };
     };
