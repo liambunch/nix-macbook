@@ -17,9 +17,9 @@
 
     nixpkgs.config.allowUnfree = true;
 
-    users.users.liam.home = "/Users/Liam";
+    users.users.liam.home = "/Users/liam";
 
-    system.primaryUser = "Liam";
+    system.primaryUser = "liam";
 
     system.defaults = {
         finder = {
@@ -39,9 +39,11 @@
             persistent-apps = [
                 "/System/Applications/Apps.app"
                 "/System/Applications/Utilities/Terminal.app"
-                "/Users/liam/Applications/Home Manager Apps/Firefox.app"
+                "/Users/liam/Applications/Home Manager Apps/LibreWolf.app"
+                "/Applications/Safari.app"
                 "/Users/liam/Applications/Home Manager Apps/Thunderbird.app"
                 "/Users/liam/Applications/Home Manager Apps/VSCodium.app"
+                "/Applications/Bitwarden.app"
                 "/Users/liam/Applications/Home Manager Apps/Vesktop.app"
                 "/Applications/UniFi Endpoint.app"
             ];
@@ -53,6 +55,8 @@
 
         casks = [
             "unifi-identity-endpoint"
+            "bitwarden"
+            "tailscale-app"
         ];
 
         onActivation = {

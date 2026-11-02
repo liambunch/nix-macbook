@@ -3,18 +3,19 @@
 {
     home = {
         username = "liam";
-        homeDirectory = "/Users/Liam";
+        homeDirectory = "/Users/liam";
         stateVersion = "26.05";
     };
 
     home.packages = with pkgs; [
         fastfetch
-        firefox
-        vscodium
-        vesktop
-        thunderbird
         mpv
         yt-dlp
+        librewolf
+        thunderbird
+        vscodium
+        vesktop
+        freelens-bin
     ];
 
     programs.git = {
