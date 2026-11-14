@@ -16,6 +16,8 @@
         vscodium
         vesktop
         freelens-bin
+        talosctl
+        kubectl
     ];
 
     programs.git = {
