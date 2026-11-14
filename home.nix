@@ -18,6 +18,7 @@
         freelens-bin
         talosctl
         kubectl
+        sops
     ];
 
     programs.git = {
